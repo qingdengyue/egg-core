@@ -36,6 +36,7 @@ describe('test/loader/mixin/load_service.test.js', function() {
         foo5: true,
         foo: true,
         bar2: true,
+        fooSameName: true,
       })
       .expect(200);
   });

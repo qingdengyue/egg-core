@@ -10,6 +10,7 @@ module.exports = function(app) {
       foo4: !!this.service.foo4,
       foo5: !!this.service.fooDir.foo5,
       foo: !!this.service.foo,
+      fooSameName: !!this.service.foo.foo,
       bar2: !!this.service.bar2,
     };
   });
