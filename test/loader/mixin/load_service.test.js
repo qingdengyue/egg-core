@@ -21,6 +21,7 @@ describe('test/loader/mixin/load_service.test.js', function() {
     app.loader.loadController();
     app.loader.loadRouter();
     assert(app.serviceClasses.foo);
+    assert(app.serviceClasses.foo.foo);
     assert(app.serviceClasses.foo2);
     assert(!app.serviceClasses.bar1);
     assert(app.serviceClasses.bar2);
